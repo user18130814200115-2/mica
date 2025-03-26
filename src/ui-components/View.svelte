@@ -127,7 +127,8 @@
 
 <style>
   .root {
-    height: 100vh;
+    height: calc(100vh - 30px);
+    margin-top: 30px;
     width: 100vw;
     display: flex;
     flex-direction: column;
